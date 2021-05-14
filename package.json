@@ -1,0 +1,16 @@
+{
+  "name": "booster-bot",
+  "version": "1.0.0",
+  "description": "A bot to help with booster cookies in Hypixel Skyblock",
+  "main": "bot.js",
+  "author": "ChickenTaxi43",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "node-fetch": "^2.6.1",
+    "winston": "^3.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
