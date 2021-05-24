@@ -2,7 +2,9 @@
 A discord bot to check prices of various items bought from the bits on the Hypixel Skyblock auction house.
 Uses these prices to calculate profit margins and optimal item choice when using a booster cookie, then outputs them in discord in an easy to read manner.
 
-Commands - !bc followed by integer for number of bits -  to fetch the AH data and determine the best deal
+Commands: 
+           
+           !bc followed by integer for number of bits -  to fetch the AH data and determine the best deal
 
            !bchelp - displays list of commands
  
