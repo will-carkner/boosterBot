@@ -12,8 +12,9 @@ except:
 url = 'https://api.hypixel.net/skyblock/auctions'
 items = {'Kismet Feather': 1350,
          'God Potion': 1500,
-         'Kat Flower': 500}
-itemList = ['Kismet Feather', 'God Potion', 'Kat Flower']
+         'Kat Flower': 500,
+         'Heat Core': 3000}
+itemList = ['Kismet Feather', 'God Potion', 'Kat Flower', 'Heat Core']
 
 aucts = []
 

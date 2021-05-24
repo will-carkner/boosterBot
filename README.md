@@ -1,5 +1,5 @@
 # boosterBot
-A discord bot to check prices of various items bought from the bits on the Hypixel Skyblock auction house.
+A discord bot to check prices of various items bought from the bits shop on the Hypixel Skyblock auction house.
 Uses these prices to calculate profit margins and optimal item choice when using a booster cookie, then outputs them in discord in an easy to read manner.
 
 Commands: 

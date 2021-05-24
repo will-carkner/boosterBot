@@ -20,6 +20,7 @@ client.on("message", (message) => {
     var cmd = args[0];
 
     args = args.splice(1);
+    let authors = [];
     switch (cmd) {
       case "bc": {
         const pythonProcess = spawn("python3", ["./apiTesting.py", args[0]]);
@@ -42,7 +43,7 @@ client.on("message", (message) => {
           .setColor("#80ff00")
           .setAuthor("ChickenTaxi43")
           .setDescription(
-            "Commands = !bc followed by integer for number of Bits. \n Will calculate best items to buy, but buy quickly as prices can fluctuate. V2 with further commands coming soon!"
+            "Commands = !bc followed by integer for number of Bits. \n Will calculate best items to buy, but buy quickly as prices can fluctuate. \n V2 with further commands coming soon!"
           );
         message.channel.send(embed2).then((msg) => msg.react("👌"));
       }
