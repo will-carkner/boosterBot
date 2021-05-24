@@ -29,6 +29,7 @@ client.on("message", (message) => {
           const embed = new Discord.MessageEmbed()
             .setTitle("Here is the data, bois")
             .setColor("#80ff00")
+            .setAuthor("ChickenTaxi43")
             .setDescription(out);
           message.channel.send(embed).then((msg) => msg.react("🤑"));
         });
@@ -36,7 +37,14 @@ client.on("message", (message) => {
         break;
       }
       case "bchelp": {
-        message.reply("Getting data. Please wait...");
+        const embed2 = new Discord.MessageEmbed()
+          .setTitle("You needed help?")
+          .setColor("#80ff00")
+          .setAuthor("ChickenTaxi43")
+          .setDescription(
+            "Commands = !bc followed by integer for number of Bits. \n Will calculate best items to buy, but buy quickly as prices can fluctuate. V2 with further commands coming soon!"
+          );
+        message.channel.send(embed2).then((msg) => msg.react("👌"));
       }
     }
   }
