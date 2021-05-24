@@ -10,7 +10,7 @@ Commands:
  
 To add to your server, click on this link: https://discord.com/api/oauth2/authorize?client_id=841610080688275486&permissions=0&scope=bot
 
-Thanks for supporting me! /n
+Thanks for supporting me!
 
 V2 coming soon!
 
